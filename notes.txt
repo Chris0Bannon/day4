@@ -3,3 +3,33 @@ Unit Testing
 you will be expected to write tests for every line of code that you write.
 
 you will be responsible for testing every situation that could arise.
+
+the first test you would run is called a smoke test.  that is simply making sure
+that your files are sourced into your HTML correctly.
+
+If you were testing a function in JS, then you would come up with what your expected
+result is, and then run it, and see if you got what you expected. see line
+9 in client.js to.  I used the console log to clearly right out what I expected
+and what i got.
+
+There are often many more options for arguments in a function than we expect.
+In the addinator we could put in negative numbers, decimals, these things likely
+behave well.  You could also put in a string, or not enough arguments.  someone
+could put in only one in the case of the addinator.  you could also have someone
+put in one string and an interger.
+
+Since strings break it we should rewrite the function to include parseint.
+
+note how the version of the addinator that inclused parseInt fixes our string
+puzzle but that solution does not work for the decimal test.
+lets try it again with parseFloat! hurray it works.
+
+except it doesn't work if we only have on argument.  The second argument turns 
+into undefined and we receive NaN!
+
+thats no good either so we should come up with an way to write the function,
+so that if anything that is undefined or not real gets input it resets that to zer0, 
+
+hurray it works!  we're good at testing!!!
+
+
