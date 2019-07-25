@@ -33,3 +33,5 @@ so that if anything that is undefined or not real gets input it resets that to z
 hurray it works!  we're good at testing!!!
 
 
+Often times tests are moved out into a seperate file to make things be a little cleaner!
+see the test.js file for the console logs that we used to test!
