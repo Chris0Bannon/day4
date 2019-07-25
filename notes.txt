@@ -1,0 +1,5 @@
+Unit Testing
+
+you will be expected to write tests for every line of code that you write.
+
+you will be responsible for testing every situation that could arise.
